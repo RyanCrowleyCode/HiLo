@@ -14,7 +14,7 @@ public class HiLo {
 			int guess = 0;
 
 			while (guess != theNumber) {
-				System.out.println("Guess a number between 1 and 100:");
+				System.out.println("Guess a number between 1 and 100: ");
 				guess = scan.nextInt();
 				numOfTries ++;
 
